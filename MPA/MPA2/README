@@ -1,0 +1,10 @@
+MPA 2 (Bubble kinda Selection typa Insertion sorta Sorting, anyone?) Assignment
+
+Read about bubble sort, selection sort, and insertion sort
+
+Implement these three sorting algorithms using pointer arithmetic instead of indexing.
+Test your implementations using the numbers found in numbers.dat. Have your program read (check out the file manipulation folder in source files found in vle.upcebu.edu.ph) this file and store the numbers in the appropriate array (you may want to check out the file and see numbers if you are curious). It has 1 million randomly generated values from 1 - 1,000,000. For this testing, you would need an array with size 1 million. Just for this MPA, declare this as a global variable since this is too big a memory. You actually need 3, one for each sorting algorithm. Write the sorted elements to a file. There should be 3 different output files (submit the c source file only).
+
+As a final requirement, display the time stamps before and after the call to the sorting function. I leave this as a reading assignment.
+
+For reference, please check out the starter file as well.

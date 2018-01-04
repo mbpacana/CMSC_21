@@ -1,0 +1,46 @@
+MPA5 (Ready, Set, FIGHT) Assignment
+
+Re-implement this MPA that you did in CMSC 11 by using a structure in implementing the bantugans. THIS IS INDIVIDUAL WORK.
+
+Warning: This is fiction loosely based on one of the largest ethnic groups in Mindanao.
+
+In Pat-a-Pangampong-a-Ranao, seventeen Panoroganans - royal houses - (the Sapolo-ago-pito-a-Panoroganan) have been living in total chaos, a house for its own house, for 35 years. The Seventeen Royal Houses are the following:
+
+The Royal House of Butig
+The Royal House of Pagayawan
+The Royal House of Bayang
+The Royal House of Dumalondong
+The Royal House of Macadar Sultan Mardan 
+The Royal House of Masiu
+The Royal House of Datu a Cabugatan
+The Royal House of Bansayan
+The Royal House of Rogan
+The Royal House of Taporog
+The Royal House of Minitupad
+The Royal House of Borocot
+The Royal House of Bacolod
+The Royal House of Maribo
+The Royal House of Ramain
+The Royal House of Ditsaan
+The Royal House of Baloi
+All the seventeen royal houses live around the Great Lake of Ranao. The Great Lake produces an enormous number of fish everyday, more than enough to feed the almost 900,000 Iranaons of Pat-a-Pangampong-a-Ranao. Because of greed, the royal houses have made awangs (boats used to fish in the lake) killing machines, destroying awangs within a 5-meter radius from them by launching gold-plated metal spears that slice the awangs into thousands of shrapnels, killing all the men in the awang. Less powerful royal houses have allied themselves with more powerful royal houses in order to protect their family and secure their lineage in the generations to come.  Eventually, the 17 royal houses were merged into two (2) great Pangampongs, one lead by the Royal House of Datu a Cabugatan and the other by the Royal House of Baloi. 
+
+The Papanoka Mra, the legendary bird that guards the lake and the source of all life in and around the Great Lake, did not like what was happening. And because the Papanoka Mra knows all too well the greed that grows in the hearts of men, for the first time, in 500 years, he has spoken to all the Iranaons, the royals, the supporting Iranaons and the servant Iranaons. He wanted all the seventeen houses to be united, ruled by the one true Bantugan (warrior) of his choosing. The two great Pangampongs, the Royal House of Datu a Cabugatan and the Royal House of Baloi, built an arena where the Bantugans from their allied Royal houses will fight in a duel to the death, until one champion is left to earn the right to rule Pat-a-Pangampong-a-Ranao.  Once the two Pangampongs anoint their champions, the two Bantugans will be sent to a journey underneath the Great Lake called the Bathymetris to find the Golden Kampilan and the Scarlet Kutyapi. Whoever comes out as the victor will bring Pat-a-Pangampong-a-Ranao back to its golden age or will spell its doom.
+
+You have been tasked by Papanoka Mra to oversee the two arenas. You were to simulate the duels that occur in the arena. 
+
+A Bantugan has health, maximum of 10 unit points. He also has manna, maximum of 10 unit points as well.  He has a weapon, a spell he can cast and a shield.  The duel is turn-based fight.  This means that a Bantugan is allowed to attack its opponent only when it is his turn. 
+
+Initially, a Bantugan has its health and manna points full. His weapon may be a wooden spear, silver ax or a diamond scythe.  A Bantugan can only have one weapon randomlychosen at the start of a duel. A wooden spear, if successful, causes 1 point damage on the opponent. The silver ax, 2 damage points and the diamond scythe, 3 damage points.  
+
+A Bantugan has a shield as well and can be a wooden, silver or diamond shield.  A wooden shield is able to neutralize damage from the wooden spear but it is only able to repel 1 damage point if the weapon is the silver ax. It cannot repel any damage point from a diamond scythe. This means that when the Bantugan has a wooden shield and is hit by a wooden spear, no damage is done to him. If hit by a silver ax, then a point damage is inflicted. If hit by a diamond scythe, full damage points is meted out to him.  If the Bantugan has a silver shield for a weapon and is hit by a wooden spear, the opponent gets 1 damage point. If hit by a silver ax, no damage points are inflicted (attack is neutralized). But when hit by a diamond scythe, the silver shield is only able to repel 1 damage point and so the Bantugan is inflicted with 2 damage points. The diamond shield is able to repel attacks from a wooden spear and a silver ax causing the corresponding damage points to the attacker. But when hit by a diamond scythe, it neutralizes the attack. And just like the weapon, the Bantugan is allowed only one shield, given to him (randomly chosen) before a duel is to begin.
+
+The Bantugan may cast a spell too. There is only one spell called the Kiss of the Jade Palapa. The Kiss of the Jade Palapa may only be used when there is enough manna.  This spell consumes 6 manna points.  Manna gets automatically regenerated by 2 points for every turn.  When using the spell, the Bantugan forfeits the use of his weapon. When the opponent unsuccessfully counters the spell, it wreaks 4 damage points to it.
+
+A Bantugan is only able to counter the Kiss of the Jade Palapa when it stumbles upon a ruby mirror with a golden frame called Bai-a-Labi's Blink. Bai-a-Labi's Blink can only be used once as it disappears after it repels or counters a spell.
+
+The weapon and the shield are randomly given to the Bantugans at beginning of a duel or match. They cannot change their weapon throughout the duration of the duel.  
+
+For every turn, the Bantugan may stumble upon Bai-a-Labi's Blink (randomly generated as well, with 1/20 probability). The Bantugan may or may not be able to use the shield at the right timing (randomly generated as well, 1/3 probability). The shield is only successfully when used at the right timing.
+
+For every turn, you are to display on a magical screen for all Iranaons to see, the health, manna, weapon, shield, Palapa,  and Bai-a-Labi's Blink statuses of both the Cabugatan and Baloi Bantugans.
